@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #202124;
+  color: white;
+  padding: 20px;
+}
+olllllllll
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.input-box {
+  background-color: #303134;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #5f6368;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 1px solid #8ab4f8;
+  outline: none;
+}
+
+/* Main add note button */
+button {
+  background-color: #5f6368;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+button:hover {
+  background-color: #8ab4f8;
+  color: #202124;
+}
+
+.note {
+  background-color: #3c4043;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.note:hover {
+  transform: scale(1.01);
+  border: 1px solid #8ab4f8;
+}
+
+.note-buttons {
+  margin-top: 10px;
+}
+
+.note-buttons button {
+  margin-right: 10px;
+  font-size: 14px;
+  background-color: #5f6368;
+}
+
+.note-buttons button:hover {
+  background-color: #8ab4f8;
+  color: #202124;
+}
